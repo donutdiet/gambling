@@ -1,2 +1,2 @@
-# gambling
+# gambling-website
 gambling website
