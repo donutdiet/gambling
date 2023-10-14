@@ -1,3 +1,47 @@
 body {
   margin: 0;
 }
+
+#home-layout-grid {
+  width: 100vw;
+  height: 100vh;
+  padding: 2px;
+
+  display: grid;
+  grid-template-columns: 110px 1fr 250px;
+  grid-template-rows: 50px 90px 1fr;
+  gap: 5px;
+  box-sizing: border-box;
+}
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+#sidebar {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#main-banner {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#info-bar {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#body {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#home-layout-grid header,
+#home-layout-grid div {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+
+  border: 1px solid black;
+  padding: 10px;
+}
