@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
 }
 header {
-  grid-column: 1 / 4;
+  grid-column: 1 / 3;
 }
 #sidebar {
   grid-row: 2 / 4;
@@ -24,7 +24,7 @@ header {
 }
 #info-bar {
   grid-column: 3 / 4;
-  grid-row: 2 / 4;
+  grid-row: 1 / 4;
 }
 #body {
   grid-row: 3 / 4;
