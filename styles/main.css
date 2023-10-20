@@ -5,12 +5,10 @@ body {
 #home-layout-grid {
   width: 100vw;
   height: 100vh;
-  padding: 2px;
 
   display: grid;
-  grid-template-columns: 110px 1fr 250px;
+  grid-template-columns: 110px 1fr 350px;
   grid-template-rows: 50px 90px 1fr;
-  gap: 5px;
   box-sizing: border-box;
 }
 header {
@@ -37,5 +35,4 @@ header {
   font-size: 20px;
 
   border: 1px solid black;
-  padding: 10px;
 }
