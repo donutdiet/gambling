@@ -2,12 +2,97 @@ header {
   position: sticky;
   top: 0;
   height: 100%;
+  padding-left: 8px;
 
   display: flex;
   align-items: center;
-  padding: 0 5px;
 }
 
 #logo {
   height: 80%;
+}
+
+#main-search-bar {
+  flex: 1;
+  margin-left: 10px;
+  padding: 0 8px;
+  height: 30px;
+  width: 0; /* max shrink */
+
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+header .search-button {
+  height: 31.5px;
+  width: 52px;
+  margin-right: 10px;
+
+  background-color: white;
+  border: 1px solid black;
+  border-left: none; /* no overlap with search bar border */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+header .search-button:hover {
+  background-color: rgb(248, 248, 248);
+}
+header .search-button:active {
+  background-color: rgb(239, 239, 239);
+}
+header .search-icon {
+  margin-top: 3px;
+  height: 20px;
+}
+
+header .current-balance-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(192, 245, 192);
+  cursor: pointer;
+}
+header .current-balance-button:hover {
+  background-color: rgb(142, 226, 142);
+}
+header .current-balance-button:active {
+  background-color: rgb(118, 214, 118);
+}
+header .current-balance-button .balance-text {
+  margin-top: 2px;
+  font-size: 8px;
+}
+header .current-balance-button .balance-amount {
+  margin-top: -4px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .login-register-button {
+  font-size: 13px;
+  background-color: rgb(178, 224, 253);
+  font-weight: bold;
+  cursor: pointer;
+}
+header .login-register-button:hover {
+  background-color: rgb(169, 219, 250);
+}
+header .login-register-button:active {
+  background-color: rgb(144, 201, 236);
+}
+
+header .current-balance-button,
+header .login-register-button {
+  height: 38px;
+  width: 100px;
+  padding: 0;
+  margin-right: 8px;
+
+  border: 1px solid gray;
+  border-radius: 4px;
+  transition: opacity 0.1;
 }

@@ -13,26 +13,27 @@ body {
 }
 header {
   grid-column: 1 / 3;
+  border: 1px solid black;
 }
 #sidebar {
   grid-row: 2 / 4;
+  border: 1px solid black;
 }
 #main-banner {
   grid-column: 2 / 3;
+  border: 1px solid black;
 }
 #info-bar {
   grid-column: 3 / 4;
   grid-row: 1 / 4;
+  border: 1px solid black;
 }
 #body {
   grid-row: 3 / 4;
+  border: 1px solid black;
 }
 
-#home-layout-grid header,
-#home-layout-grid div {
+#home-layout-grid {
   font-family: Arial;
-  font-weight: bold;
   font-size: 20px;
-
-  border: 1px solid black;
 }
