@@ -1,5 +1,7 @@
 body {
   margin: 0;
+background-image: url('images/munchlax_background.jpg');
+background-size: cover;
 }
 
 #home-layout-grid {

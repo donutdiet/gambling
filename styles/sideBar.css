@@ -1,4 +1,4 @@
-#sidebar-popular-button{
+#sidebar #popular-button{
   background-color: #407cbf;
   border-radius: 5px;
   font-size: 17px;
@@ -7,11 +7,11 @@
   margin-top: 10px;
   margin-left: 5px;
 }
-#sidebar-popular-button:hover{
+#sidebar #popular-button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#sidebar-favorites-button{
+#sidebar #favorites-button{
   background-color: #25da7a;
   border-radius: 5px;
   font-size: 14.5px;
@@ -21,11 +21,11 @@
   margin-left: 5px;
   
 }
-#sidebar-favorites-button:hover{
+#sidebar #favorites-button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#sidebar-sports-button{
+#sidebar #sports-button{
   background-color: #8e43bc;
   border-radius: 5px;
   font-size: 14.5px;
@@ -34,7 +34,7 @@
   margin-top: 10px;
   margin-left: 16px;
 }
-#sidebar-sports-button:hover{
+#sidebar #sports-button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
