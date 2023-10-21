@@ -1,15 +1,17 @@
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  height: 100%;
-  padding-left: 8px;
-
   display: flex;
   align-items: center;
+  width: 100%;
+  border-bottom: none;
 }
 
 #logo {
-  height: 80%;
+  height: 50px;
+  width: 109px;
+  border-right: 1px solid black;
+  
 }
 
 #main-search-bar {
