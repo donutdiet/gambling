@@ -1,0 +1,28 @@
+#info-bar{
+    position: static;
+}
+
+#info-bar #info-bar-grid{
+    width:fit-content;
+    height: max-content;
+
+    display: grid;
+    grid-template-columns:  repeat(4,minmax(0,1fr));
+    grid-template-rows: 50px 1fr; 
+}
+
+#info-bar #level{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: black;
+
+    place-items: left;
+    color: white;
+}
+
+#info-bar #level-number{
+    color: white;
+
+    place-items: left;
+
+}
