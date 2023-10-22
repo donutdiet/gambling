@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 
+#background_img{
+  background-image: url("/images/munchlax_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  height: 300vh;
+  width: 100vw;
+}
+
 #home-layout-grid {
   width: 100vw;
   height: 100vh;
