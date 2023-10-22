@@ -1,0 +1,16 @@
+#banner {
+    position: fixed;
+    top: 50px;
+    left: 110px;
+    right:0px;
+    display: grid;
+    place-items: center;
+    height: 60px;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(239, 253, 175);
+}
+.banner-message{
+    color: black;
+    
+}

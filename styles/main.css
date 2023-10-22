@@ -24,7 +24,7 @@ body {
 
   display: grid;
   grid-template-columns: 110px 1fr 350px;
-  grid-template-rows: 50px 90px 1fr;
+  grid-template-rows: 50px 60px 1fr;
   box-sizing: border-box;
 }
 header {
@@ -35,14 +35,14 @@ header {
   grid-row: 2 / 4;
   border: 1px solid black;
 }
-#main-banner {
-  grid-column: 2 / 3;
+#banner {
+  grid-column: 2 / 4;
   grid-row: 2/3;
   border: 1px solid black;
 }
 #info-bar {
   grid-column: 3 / 4;
-  grid-row: 2 / 4;
+  grid-row: 3 / 4;
   border: 1px solid black;
 }
 #body {
