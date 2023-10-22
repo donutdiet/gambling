@@ -4,7 +4,7 @@
 }
 
 
-#sidebar 
+#sidebar,
 #popular-button,
 #favorites-button,
 #sports-button,
@@ -14,7 +14,7 @@
   font-family: fantasy;
   text-align: center;
   color: black;
-  width: 109px;
+  width: 110px;
   height: 50px;
   transition-duration: 0.4s;
   display: block;
@@ -45,6 +45,21 @@ background-color: black;
 color: white;
 cursor: pointer;
 }
+
+#sidebar #games-title{
+  background-color: #000000;
+  font-family: fantasy;
+  font-size: 25px;
+  width: 110px;
+  height: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: grid;
+  place-items: center;
+  color: white;
+  
+}
+
 
 #sidebar #popular-button{
   background-color: #629ada;
