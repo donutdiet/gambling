@@ -10,7 +10,7 @@
 #sports-button,
 #slots-button,
 #cards-button,
-#pvp-button{
+#battle-button{
   font-family: fantasy;
   text-align: center;
   color: black;
@@ -31,7 +31,7 @@
 #sidebar #sports-button:active,
 #sidebar #slots-button:active,
 #sidebar #cards-button:active,
-#sidebar #pvp-button:active{
+#sidebar #battle-button:active{
 background-color: black;
 }
 
@@ -41,7 +41,7 @@ background-color: black;
 #sports-button:hover,
 #slots-button:hover,
 #cards-button:hover,
-#pvp-button:hover
+#battle-button:hover
 {
 color: white;
 cursor: pointer;
@@ -87,8 +87,8 @@ cursor: pointer;
   font-size: 30px;
 }
 
-#sidebar #pvp-button{
-  background-color: #faf759;
+#sidebar #battle-button{
+  background-color: #ff4848;
   font-size: 30px;
   border-bottom: none;
 }
