@@ -10,10 +10,12 @@ position: static;
     font-size: 25px;
     font-style: italic;
     /* background-image: url("/CoinFlip/coinflip_blue.png"); */
-    
+    display: inline-block;
     background-color: black;
     height: 150px;
     width: 150px;
+
+
 }
 
 #body #coinflip:hover{
@@ -22,3 +24,4 @@ position: static;
     0 0 21px #fff;
     cursor: pointer;
 }
+
