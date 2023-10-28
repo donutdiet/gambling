@@ -1,41 +1,58 @@
 body {
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  --height: 100vh;
+
+}
+
+#background_img{
+  background-image: url("/images/munchlax_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+
+  height:calc(var(--height) + 50vh);
+  width: 100vw;
 }
 
 #home-layout-grid {
   width: 100vw;
   height: 100vh;
-  padding: 2px;
 
   display: grid;
-  grid-template-columns: 110px 1fr 250px;
-  grid-template-rows: 50px 90px 1fr;
-  gap: 5px;
+  grid-template-columns: 110px 1fr 350px;
+  grid-template-rows: 50px 60px 1fr;
   box-sizing: border-box;
 }
 header {
-  grid-column: 1 / 4;
+  grid-column: 1 / 3;
+  border: 1px solid black;
 }
 #sidebar {
   grid-row: 2 / 4;
+  border: 1px solid black;
 }
-#main-banner {
-  grid-column: 2 / 3;
+#banner {
+  grid-column: 2 / 4;
+  grid-row: 2/3;
+  border: 1px solid black;
 }
 #info-bar {
   grid-column: 3 / 4;
-  grid-row: 2 / 4;
+  grid-row: 3 / 4;
+  border: 1px solid black;
 }
 #body {
   grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  border: 1px solid black;
+  height: var(--height);
 }
 
-#home-layout-grid header,
-#home-layout-grid div {
+#home-layout-grid {
   font-family: Arial;
-  font-weight: bold;
   font-size: 20px;
-
-  border: 1px solid black;
-  padding: 10px;
 }

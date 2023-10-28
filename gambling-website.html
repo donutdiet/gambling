@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Tab Title & Icon Picture -->
+    <title>Munchlax Arcade</title>
+    <link rel="icon" href="images/munchlax.png">
+
+
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/infoBar.css">
+    <link rel="stylesheet" href="styles/body.css">
+
+
+
   </head>
+
   <body>
+    
     <div id="home-layout-grid">
-      <header>Header</header>
-      <div id="sidebar">Sidebar</div>
-      <div id="main-banner">Scrolling Banners</div>
-      <div id="info-bar">Misc. Info Bar</div>
-      <div id="body">Body</div>
+      <div id="background_img"></div>
+      <header>
+        <img id="logo" src="images/munchlax.png"> 
+        <input id="main-search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="images/search-icon.png">
+        </button>
+        <button class="current-balance-button">
+          <div class="balance-text">Balance</div>
+          <div class="balance-amount">$200.00</div>
+        </button>
+        <button class="login-register-button">Login/Register</button>
+      </header>
+      <div id="sidebar">
+        <div id="games-title">GAMES</div>
+        <button id="popular-button">POPULAR</button>
+        <button id="favorites-button">FAVORITES</button>
+        <button id="sports-button">SPORTS</button>
+        <button id="slots-button">SLOTS</button>
+        <button id="cards-button">CARDS</button>
+        <button id="battle-button">BATTLE</button>
+      </div>
+      <div id="banner">
+          <marquee class="banner-message">MOST RECENT MUNCHKIN WINS: JOHN CENA - 100 GOLDEN RIZZ</marquee>
+      </div>
+      <div id="info-bar">
+        <div id="info-bar-grid">
+        <div id="level">LEVEL: </div>
+        <div id="level-number">20</div>
+        </div>
+      </div>
+      <div id="body">
+        
+        <button id="coinflip">COINFLIP
+          <a id="cflink" href="/CoinFlip/CGambling.html"></a>
+        </button>
+
+      </div>
     </div>
+    
   </body>
   <script></script>
 </html>

@@ -1,0 +1,94 @@
+#sidebar{
+  position: fixed;
+  top: 50px;
+}
+
+
+#sidebar,
+#popular-button,
+#favorites-button,
+#sports-button,
+#slots-button,
+#cards-button,
+#battle-button{
+  font-family: fantasy;
+  text-align: center;
+  color: black;
+  
+  width: 110px;
+  height: 50px;
+  transition-duration: 0.4s;
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+
+ 
+#sidebar #popular-button:active,
+#sidebar #favorites-button:active,
+#sidebar #sports-button:active,
+#sidebar #slots-button:active,
+#sidebar #cards-button:active,
+#sidebar #battle-button:active{
+background-color: black;
+}
+
+#sidebar 
+#popular-button:hover,
+#favorites-button:hover,
+#sports-button:hover,
+#slots-button:hover,
+#cards-button:hover,
+#battle-button:hover
+{
+color: white;
+cursor: pointer;
+}
+
+#sidebar #games-title{
+  background-color: #000000;
+  font-family: fantasy;
+  font-size: 25px;
+  width: 110px;
+  height: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: grid;
+  place-items: center;
+  color: white;
+  
+}
+
+
+#sidebar #popular-button{
+  background-color: #629ada;
+  font-size: 25px;
+}
+
+#sidebar #favorites-button{
+  background-color: #25da7a;
+  font-size: 23px;
+}
+
+#sidebar #sports-button{
+  background-color: #8e43bc;
+  font-size: 30px;
+}
+
+#sidebar #slots-button{
+  background-color: #ee81ca;
+  font-size: 30px;
+}
+
+#sidebar #cards-button{
+  background-color: #f39c38;
+  font-size: 30px;
+}
+
+#sidebar #battle-button{
+  background-color: #ff4848;
+  font-size: 30px;
+  border-bottom: none;
+}
